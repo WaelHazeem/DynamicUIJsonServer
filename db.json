@@ -1,0 +1,50 @@
+{
+  "form": {
+    "id": 1,
+    "elements": [
+      {
+        "label": "First Name",
+        "key": "firstName",
+        "value": "Jhon",
+        "required": true,
+        "order": 1,
+        "controlType":"text"
+      },
+      {
+        "label": "Email Address",
+        "key": "emailAddress",
+        "required": true,
+        "order": 3,
+        "controlType":"email"
+      },
+      {
+        "label": "Country",
+        "key": "country",
+        "value": "india",
+        "required": true,
+        "order": 2,
+        "controlType":"select",
+        "options": [
+          {
+            "key": "india",
+            "value": "India"
+          },
+          {
+            "key": "irag",
+            "value": "Irag"
+          },
+          {
+            "key": "UAE",
+            "value": "UAE"
+          },
+          {
+            "key": "france",
+            "value": "France"
+          }
+        ]
+      }
+    ],
+    "submit": "",
+    "cancel": ""
+  }
+}
