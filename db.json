@@ -1,134 +1,138 @@
 {
-  "form": {
-    "id": 1,
-    "elements": [
-      {
-        "label": "First Name",
-        "key": "firstName",
-        "value": "",
-        "placeholder": "e.x Jhon",
-        "required": true,
-        "order": 1,
-        "controlType": "textbox",
-        "type": "text",
-        "lostFocusScript": "alert('First Name textbox has lost focus')",
-        "errorMessage": ""
-      },
-      {
-        "label": "Last Name",
-        "key": "lastName",
-        "value": "",
-        "placeholder": "e.x William",
-        "required": true,
-        "order": 2,
-        "controlType": "textbox",
-        "type": "text"
-      },
-      {
-        "label": "Date of Birth",
-        "key": "dob",
-        "value": "",
-        "placeholder": "",
-        "required": true,
-        "order": 3,
-        "controlType": "textbox",
-        "type": "date"
-      },
-      {
-        "label": "Age",
-        "key": "age",
-        "value": 30,
-        "required": true,
-        "order": 7,
-        "controlType": "textbox",
-        "type": "number"
-      },
-      {
-        "label": "Telephone",
-        "key": "telephone",
-        "value": "",
-        "required": false,
-        "order": 6,
-        "controlType": "textbox",
-        "type": "tel"
-      },
-      {
-        "label": "Portfolio URL",
-        "key": "url",
-        "value": "",
-        "required": false,
-        "order": 6,
-        "controlType": "textbox",
-        "type": "url"
-      },
-      {
-        "label": "Email Address",
-        "key": "emailAddress",
-        "required": true,
-        "value": "x@y",
-        "order": 3,
-        "controlType": "textbox",
-        "type": "email"
-      },
-      {
-        "label": "sex",
-        "key": "sex",
-        "value": "",
-        "required": true,
-        "order": 6,
-        "controlType": "radio",
-        "type": "radio",
-        "options": [
-          {
-            "key": "male",
-            "value": "male"
-          },
-          {
-            "key": "female",
-            "value": "female"
-          }
-        ]
-      },
-      {
-        "label": "Country",
-        "key": "country",
-        "value": "india",
-        "required": true,
-        "order": 4,
-        "controlType": "dropdown",
-        "options": [
-          {
-            "key": "india",
-            "value": "India"
-          },
-          {
-            "key": "irag",
-            "value": "Irag"
-          },
-          {
-            "key": "UAE",
-            "value": "UAE"
-          },
-          {
-            "key": "france",
-            "value": "France"
-          }
-        ]
-      },
-      {
-        "label": "CV File",
-        "key": "cvfile",
-        "value": "",
-        "placeholder": "your CV",
-        "required": true,
-        "order": 10,
-        "controlType": "document",
-        "type": "file",
-        "lostFocusScript": "alert('CV File Field has lost focus')",
-        "errorMessage": ""
-      }
-    ],
-    "submitValidationScript": "alert('Submit Script could be evaluated here')",
-    "cancelScript": "alert('Cancel Script could be evaluated here')"
-  }
+  "form": 
+  
+{
+  "id": 1,
+  "elements": [
+    {
+      "label": "First Name",
+      "key": "firstName",
+      "value": "",
+      "placeholder": "e.x Jhon",
+      "required": true,
+      "order": 1,
+      "controlType": "textbox",
+      "type": "text",
+      "lostFocusScript": "alert('First Name textbox has lost focus')",
+      "errorMessage": ""
+    },
+    {
+      "label": "Last Name",
+      "key": "lastName",
+      "value": "",
+      "placeholder": "e.x William",
+      "required": true,
+      "order": 2,
+      "controlType": "textbox",
+      "type": "text"
+    },
+    {
+      "label": "Date of Birth",
+      "key": "dob",
+      "value": "",
+      "placeholder": "",
+      "required": true,
+      "order": 3,
+      "controlType": "textbox",
+      "type": "date"
+    },
+    {
+      "label": "Age",
+      "key": "age",
+      "value": null,
+      "required": true,
+      "order": 7,
+      "controlType": "textbox",
+      "type": "number"
+    },
+    {
+      "label": "Telephone",
+      "key": "telephone",
+      "value": "",
+      "required": false,
+      "order": 6,
+      "controlType": "textbox",
+      "type": "tel"
+    },
+    {
+      "label": "Portfolio URL",
+      "key": "url",
+      "placeholder": "e.x www.somewebsite.com",
+      "value": "",
+      "required": false,
+      "order": 6,
+      "controlType": "textbox",
+      "type": "url"
+    },
+    {
+      "label": "Email Address",
+      "key": "emailAddress",
+      "required": true,
+      "placeholder": "e.x someone@website",
+      "value": "",
+      "order": 3,
+      "controlType": "textbox",
+      "type": "email"
+    },
+    {
+      "label": "sex",
+      "key": "sex",
+      "value": "",
+      "required": true,
+      "order": 6,
+      "controlType": "radio",
+      "type": "radio",
+      "options": [
+        {
+          "key": "male",
+          "value": "male"
+        },
+        {
+          "key": "female",
+          "value": "female"
+        }
+      ]
+    },
+    {
+      "label": "Country",
+      "key": "country",
+      "value": "india",
+      "required": true,
+      "order": 4,
+      "controlType": "dropdown",
+      "options": [
+        {
+          "key": "india",
+          "value": "India"
+        },
+        {
+          "key": "irag",
+          "value": "Irag"
+        },
+        {
+          "key": "UAE",
+          "value": "UAE"
+        },
+        {
+          "key": "france",
+          "value": "France"
+        }
+      ]
+    },
+    {
+      "label": "CV File",
+      "key": "cvfile",
+      "value": "",
+      "placeholder": "your CV",
+      "required": true,
+      "order": 10,
+      "controlType": "document",
+      "type": "file",
+      "lostFocusScript": "alert('CV File Field has lost focus')",
+      "errorMessage": ""
+    }
+  ],
+  "submitValidationScript": "alert('Submit Script could be evaluated here')",
+  "cancelScript": "alert('Cancel Script could be evaluated here')"
+}
 }
